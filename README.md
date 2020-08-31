@@ -22,7 +22,7 @@ SimpleMachine requires:
 Once the initial version is released if you have a working installation of numpy,
 the easiest way to install SimpleMachine is using ``pip``   ::
 
-    pip install -U scikit-learn
+    pip install -U simplemachine
     
 Else you can clone this github directory and keep it in the same folder as the project you are working on.
 ~~~~~~~~~~~~~~~~~~~~~
