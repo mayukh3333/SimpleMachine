@@ -10,10 +10,10 @@ It is currently under development, i am hoping to finish the intial version befo
 Installation
 ------------
 
-Dependencies
+**Dependencies
 ~~~~~~~~~~~~
 
-scikit-learn requires:
+SimpleMachine requires:
 
 - Python (>= 3.6)
 - NumPy (>= 1.13.3)
