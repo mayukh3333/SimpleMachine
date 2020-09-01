@@ -39,17 +39,17 @@ Current To-Do List
 ------------
 
 **Algorithms**
-
-1. ~~kNN~~
-2. ~~Linear Regression~~
-3. ~~Logistic Regression~~
-4. ~~SVM~~
-5. Naive Bayes 
-6. K-Means
-7. Decision Trees
-8. Random Forest
-9. DBSCAN
-
+~~~~~~~~~~~~~~~~~~~~~~~
+- [x] kNN
+- [x] Linear Regression
+- [x] Logistic Regression
+- [x] SVM
+- [ ] Naive Bayes 
+- [ ] K-Means
+- [ ] Decision Trees
+- [ ] Random Forest
+- [ ] DBSCAN
+~~~~~~~~~~~~~~~~~~~~~~~
 
 **Other**
 ~~~~~~~~~~~~
