@@ -39,7 +39,7 @@ Current To-Do List
 ------------
 
 **Algorithms**
-~~~~~~~~~~~~~~~~~~~~~~~
+
 - [x] kNN
 - [x] Linear Regression
 - [x] Logistic Regression
@@ -49,7 +49,7 @@ Current To-Do List
 - [ ] Decision Trees
 - [ ] Random Forest
 - [ ] DBSCAN
-~~~~~~~~~~~~~~~~~~~~~~~
+
 
 **Other**
 ~~~~~~~~~~~~
