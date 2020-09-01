@@ -39,11 +39,11 @@ class SVM():
 
         # Pre-compute the kernel matrix
         if self.kernel.__name__ == 'linear_kernel':
-            print(f'Pre-computing {self.kernel.__name__} kernel matrix')
+
             K = X @ X.T
 
         elif self.kernel.__name__ == 'gaussian_kernel':
-            print(f'Pre-computing {self.kernel.__name__} kernel matrix')
+
             X2 = np.sum(np.power(X, 2), axis=1).reshape(-1, 1)
             K = X2 + (X2.T - (2 * (X @ X.T)))
             K = np.power(self.kernel(1, 0, self.sigma), K)
@@ -51,7 +51,7 @@ class SVM():
         else:
             # Pre-compute the Kernel Matrix
             # The following can be slow due to lack of vectorization
-            print(f'Pre-computing {self.kernel.__name__} kernel matrix')
+
             K = np.zeros((m, m))
 
             for i in range(m):
@@ -61,8 +61,7 @@ class SVM():
                     K[i, j] = self.kernel(x1, x2)
                     K[i, j] = K[j, i]
 
-        print('Training...')
-        print('This may take 1 to 2 minutes')
+
 
         while passes < self.max_passes:
             num_changed_alphas = 0
@@ -140,9 +139,7 @@ class SVM():
             else:
                 passes = 0
 
-            print('.', end='', flush=True)
-
-        print('\n DONE! ')
+            
 
         # Save the model
         idx = alphas > 0
