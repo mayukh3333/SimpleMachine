@@ -40,7 +40,10 @@ Current To-Do List
 
 **Algorithms**
 ~~~~~~~~~~~~
-SVM
+~~kNN~~
+~~Linear Regression~~
+~~Logistic Regression~~
+~~SVM~~
 Naive Bayes 
 K-Means
 Decision Trees
