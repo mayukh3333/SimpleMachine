@@ -35,3 +35,22 @@ Documentation of the files is not complete yet
 
 The accuracy of the algorithms is currently the same as those of in the scikit learn module. We intend to optimize the speed and accuracy of the models further in an more advance version of this library.
 
+Current To-Do List
+------------
+
+**Algorithms**
+~~~~~~~~~~~~
+SVM
+Naive Bayes 
+K-Means
+Decision Trees
+Random Forest
+DBSCAN
+~~~~~~~~~~~~
+
+**Other**
+~~~~~~~~~~~~
+Documentations
+Testing for Each Algo in jupyter notebook
+~~~~~~~~~~~~
+
