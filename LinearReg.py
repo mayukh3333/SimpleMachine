@@ -20,7 +20,7 @@ class LinearRegression:
         return 1/(2 *m) * np.sum(error)
 
     def fit(self, X, y):
-
+        
         m = len(y)
         self.X = np.append(np.ones((m,1)),X.reshape(m,1),axis =1)
         self.y = y.reshape(m,1)
